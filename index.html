@@ -5,10 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Gobi web Integration</title>
 
-    <script src="https://unpkg.com/@gobistories/gobi-web-integration@3.9.8"></script>
-  <link rel="stylesheet" href="https://unpkg.com/@gobistories/gobi-web-integration@3.9.8/dist/gobi-web-integration.css">
-
-</head>
+    <script src="gobi-web-integration.js"></script>
+    <link href="gobi-web-integration.css" rel="stylesheet"></head>
 <style>
     .space {
         /*height: 100vh;*/
@@ -34,7 +32,8 @@
         avatarSize: '150px',
         playerOptions: {
             autoStart: true,
-        }
+        },
+        isFullHeight: true,
 
         // color: '#483d8b',
     });
@@ -47,6 +46,8 @@
     //     avatarSize: '150px'
     // });
 </script>
+
+<script type="text/javascript" src="gobi-web-integration.js"></script>
 
 </body>
 </html>
