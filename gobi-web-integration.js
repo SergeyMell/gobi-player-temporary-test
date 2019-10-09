@@ -14500,6 +14500,7 @@ function () {
     get: function get() {
       var parameters = {
         autoStart: this._options.autoStart,
+        hideWatermark: this._options.hideWatermark,
         addLooping: this._options.loop,
         hideOverlay: this._options.hideOverlay,
         roundedCorners: this._options.roundedCorners
