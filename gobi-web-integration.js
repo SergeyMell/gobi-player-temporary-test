@@ -14445,7 +14445,8 @@ function () {
       height: 0,
       roundedCorners: true,
       shadow: true,
-      checkViewPort: true
+      checkViewPort: true,
+      hideWatermark: false
     };
     this._eventEmitter = new event_emitter();
     this.on = this._eventEmitter.on.bind(this._eventEmitter);
